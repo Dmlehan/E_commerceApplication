@@ -10,9 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7d9cfa1-1c0a-47b8-b7e4-96d8b5a5e350" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/HelloServlet.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +27,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
@@ -88,7 +93,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737845661265</updated>
       <workItem from="1737845662373" duration="3000" />
-      <workItem from="1737867847184" duration="8176000" />
+      <workItem from="1737867847184" duration="9903000" />
     </task>
     <task id="LOCAL-00001" summary="Created Loging Part">
       <option name="closed" value="true" />
@@ -98,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737873792744</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created Category,product,User DTO with index.jsp">
+      <option name="closed" value="true" />
+      <created>1737880518252</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737880518252</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +119,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Created Loging Part" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created Loging Part" />
+    <MESSAGE value="Created Category,product,User DTO with index.jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created Category,product,User DTO with index.jsp" />
   </component>
 </project>
