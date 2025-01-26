@@ -9,11 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7d9cfa1-1c0a-47b8-b7e4-96d8b5a5e350" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Category/DeleteCategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Category/DeleteCategoryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Category/UpdateCategoryServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Category/UpdateCategoryServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/CategoryManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CategoryManage.jsp" afterDir="false" />
+    <list default="true" id="a7d9cfa1-1c0a-47b8-b7e4-96d8b5a5e350" name="Changes" comment="completed category management part">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -95,7 +92,7 @@
       <option name="presentableId" value="Default" />
       <updated>1737845661265</updated>
       <workItem from="1737845662373" duration="3000" />
-      <workItem from="1737867847184" duration="14133000" />
+      <workItem from="1737867847184" duration="19265000" />
     </task>
     <task id="LOCAL-00001" summary="Created Loging Part">
       <option name="closed" value="true" />
@@ -129,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737885959793</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="completed category management part">
+      <option name="closed" value="true" />
+      <created>1737889259500</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737889259500</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,6 +145,7 @@
     <MESSAGE value="Created Category,product,User DTO with index.jsp" />
     <MESSAGE value="connected &quot;ecommerce&quot; database with contextInitialized method in ServletContextListner Interface" />
     <MESSAGE value="done User part" />
-    <option name="LAST_COMMIT_MESSAGE" value="done User part" />
+    <MESSAGE value="completed category management part" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed category management part" />
   </component>
 </project>
