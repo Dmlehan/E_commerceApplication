@@ -10,9 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7d9cfa1-1c0a-47b8-b7e4-96d8b5a5e350" name="Changes" comment="completed category management part">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/desa.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Login/LoginServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Login/RegistrationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Order/GetAllOrderdServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Order/PlaceOrderServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Product/DeleteProductServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Product/GetAllCategoryServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Product/ProductManageServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/Product/UpdateProductServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/DTO/CategoryDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/DTO/OrderDetailDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/DTO/OrderDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/DTO/ProductDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/DTO/UserDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/MyListner/MyListner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/AdminDashboard.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/CategoryManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/CategoryManage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/Myprofile.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/Homepage/1300x300 Green-01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/Homepage/OIP.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/Homepage/file 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/assets/Homepage/file.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/sample.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,33 +64,39 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2s8md8J3vrO0zDFHoRCoTxlbCRo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/A2025-D/lll/My/E_commerceApplication/src/main/webapp/WEB-INF",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/A2025-D/lll/My/E_commerceApplication/src/main/webapp/WEB-INF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp\WEB-INF" />
       <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp" />
       <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp\assets" />
       <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp\jq" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication" />
     </key>
   </component>
   <component name="RunManager">
@@ -97,6 +124,7 @@
       <updated>1737845661265</updated>
       <workItem from="1737845662373" duration="3000" />
       <workItem from="1737867847184" duration="23505000" />
+      <workItem from="1738786119882" duration="4309000" />
     </task>
     <task id="LOCAL-00001" summary="Created Loging Part">
       <option name="closed" value="true" />

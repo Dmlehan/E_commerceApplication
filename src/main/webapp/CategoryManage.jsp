@@ -220,7 +220,7 @@
 
   // Populate the Delete Category Modal with data
   $('#deleteCategoryModal').on('show.bs.modal', function (event) {
-    const button = $(event.relatedTarget); // Button that triggered the modal
+    cont button = $(event.relatedTarget); // Button that triggered the modal
     const categoryId = button.data('categoryid'); // Get category ID
     const categoryName = button.data('categoryname'); // Get category name
 
