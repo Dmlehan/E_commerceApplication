@@ -45,6 +45,28 @@
 <body>
 <h1>Hi</h1>
 
+<div class="row">
+    <% if (!products.isEmpty()) { %>
+    <% for (Product product : products) { %>
+    <div class="col-md-3 my-3">
+        <div class="card h-100">
+            <img class="card-img-top" src="product-images/<%= product.getImage() %>" alt="<%= product.getName() %>">
+            <div class="card-body product-info">
+                <h5 class="card-title"><%= product.getName() %></h5>
+                <p class="price">Price: $<%= product.getPrice() %></p>
+                <p class="category">Category: <%= product.getCategory() %></p>
+                <div class="d-flex justify-content-between">
+                    <a href="registration.jsp"
+                       class="btn btn-dark">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <% }
+    }
+    %>
+</div>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
