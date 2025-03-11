@@ -20,6 +20,7 @@
       <li><a href="register.jsp">Register</a></li>
         <li><a href="add-car.jsp">Add new car </a></li>
       <li><a href="login.jsp">Login</a></li>
+        <li><a href="login1.jsp">Login1</a></li>
     </ul>
   </nav>
 </header>
