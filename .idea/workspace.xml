@@ -10,8 +10,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a7d9cfa1-1c0a-47b8-b7e4-96d8b5a5e350" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +25,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
-        <option value="Jsp File" />
         <option value="HTML File" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -60,7 +63,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/A1AAA-2025D JDSE/SEM 02/AAD/Java EE/Assignment01/E_commerceApplication/src/main/resources/Testing",
+    "last_opened_file_path": "D:/A1AAA-2025D JDSE/SEM 02/AAD/Java EE/Assignment01/E_commerceApplication/src/main/webapp",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,15 +76,19 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\resources\Testing" />
       <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\webapp" />
+      <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\resources\Testing" />
       <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp\WEB-INF" />
       <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp" />
       <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\webapp" />
       <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\resources" />
       <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.e_commerproject.config" />
     </key>
   </component>
   <component name="RunManager">
@@ -98,17 +105,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tomcat 10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="E_commerProject:war exploded">
+        <artifact name="E_commerProject:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/E_commerProject_war_exploded" />
+            <option name="CONTEXT_PATH" value="/E_commerProject_war" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="0d9a45c3-2532-42b7-a2e6-e98e3ef65829" />
+        <option name="BASE_DIRECTORY_NAME" value="e8ae4566-b639-4191-98f6-7d9ec6d709fe" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -116,7 +135,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="62981" />
+        <option name="DEBUG_PORT" value="63168" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -180,8 +199,9 @@
       </ConfigurationWrapper>
       <method v="2">
         <option name="Make" enabled="true" />
+        <option name="LaunchBrowser.Before.Run" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="E_commerProject:war exploded" />
+          <artifact name="E_commerProject:war" />
         </option>
       </method>
     </configuration>
@@ -203,7 +223,13 @@
       <workItem from="1739310841826" duration="5642000" />
       <workItem from="1739708100577" duration="7245000" />
       <workItem from="1740030389990" duration="1384000" />
-      <workItem from="1740063345289" duration="17165000" />
+      <workItem from="1740063345289" duration="28324000" />
+      <workItem from="1740571041000" duration="609000" />
+      <workItem from="1740712141547" duration="1826000" />
+      <workItem from="1741403143426" duration="3418000" />
+      <workItem from="1741487690319" duration="5024000" />
+      <workItem from="1741583139689" duration="3181000" />
+      <workItem from="1741635569265" duration="20968000" />
     </task>
     <task id="LOCAL-00001" summary="Created Loging Part">
       <option name="closed" value="true" />
@@ -317,7 +343,23 @@
       <option name="project" value="LOCAL" />
       <updated>1740065287989</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updating readme(adding testing ui )">
+      <option name="closed" value="true" />
+      <created>1740139039932</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1740139039932</updated>
+    </task>
+    <task id="LOCAL-00016" summary="updating readme(adding testing ui )">
+      <option name="closed" value="true" />
+      <created>1740139141062</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1740139141062</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +374,7 @@
     <MESSAGE value="complete admin dashboard" />
     <MESSAGE value="complete order  part" />
     <MESSAGE value="updating" />
-    <option name="LAST_COMMIT_MESSAGE" value="updating" />
+    <MESSAGE value="updating readme(adding testing ui )" />
+    <option name="LAST_COMMIT_MESSAGE" value="updating readme(adding testing ui )" />
   </component>
 </project>
