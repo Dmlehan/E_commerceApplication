@@ -1,0 +1,39 @@
+<hibernate-configuration>
+  <session-factory>
+    <!-- Database Connection -->
+    <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/ecommerce</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">1234</property>
+
+    <!-- Hibernate Dialect -->
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+    <!-- Enable SQL Logging -->
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+
+    <!-- Automatically Update Tables -->
+    <property name="hibernate.hbm2ddl.auto">update</property>
+
+    <!-- C3P0 Connection Pooling -->
+    <property name="hibernate.c3p0.min_size">5</property>
+    <property name="hibernate.c3p0.max_size">20</property>
+    <property name="hibernate.c3p0.timeout">300</property>
+    <property name="hibernate.c3p0.max_statements">50</property>
+
+
+    <mapping class="com.example.e_commerproject.entity.User"/>
+    <mapping class="com.example.e_commerproject.entity.Cart"/>
+    <mapping class="com.example.e_commerproject.entity.Category"/>
+    <mapping class="com.example.e_commerproject.entity.Order_details"/>
+    <mapping class="com.example.e_commerproject.entity.Product"/>
+    <mapping class="com.example.e_commerproject.entity.Order"/>
+
+<!--    <mapping class="org.example.ecommerrce_web.entity.Category"/>-->
+<!--    <mapping class="org.example.ecommerrce_web.entity.Product"/>-->
+<!--    <mapping class="org.example.ecommerrce_web.entity.Cart"/>-->
+<!--    <mapping class="org.example.ecommerrce_web.entity.OrderDetail"/>-->
+<!--    <mapping class="org.example.ecommerrce_web.entity.Orders"/>-->
+  </session-factory>
+</hibernate-configuration>

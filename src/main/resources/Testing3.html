@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Sales - Home</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+    .header {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-size: 24px;
+    }
+    .car-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 20px;
+    }
+    .car-card {
+      background: white;
+      padding: 15px;
+      margin: 10px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 250px;
+      text-align: center;
+    }
+    .car-card img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .car-card button {
+      background-color: #28a745;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+  </style>
+  <script>
+    function addToCart(carId) {
+      alert('Car with ID ' + carId + ' added to cart!');
+    }
+  </script>
+</head>
+<body>
+<div class="header">Car Sales Home</div>
+<div class="car-container">
+  <div class="car-card">
+    <img src="car1.jpg" alt="Car 1">
+    <h3>Car Model 1</h3>
+    <p>Price: $20,000</p>
+    <button onclick="addToCart(1)">Add to Cart</button>
+  </div>
+  <div class="car-card">
+    <img src="car2.jpg" alt="Car 2">
+    <h3>Car Model 2</h3>
+    <p>Price: $25,000</p>
+    <button onclick="addToCart(2)">Add to Cart</button>
+  </div>
+</div>
+</body>
+</html>
