@@ -14,7 +14,7 @@
         <ul>
             <li><a href="dashboard.jsp">Home</a></li>
             <li><a href="cars.jsp">Cars</a></li>
-            <li><a href="register.jsp">Register</a></li>
+            <li><a href="Registration.jsp">Register</a></li>
         </ul>
         <button class="btn">Buy Now</button>
     </nav>

@@ -17,10 +17,11 @@
       <li><a href="index.jsp">Home</a></li>
       <li><a href="dashboard.jsp">Dashboard</a></li>
       <li><a href="cars.jsp">Cars</a></li>
-      <li><a href="register.jsp">Register</a></li>
+      <li><a href="Registration">Register</a></li>
         <li><a href="add-car.jsp">Add new car </a></li>
       <li><a href="login.jsp">Login</a></li>
         <li><a href="login1.jsp">Login1</a></li>
+        <li><a href="Register2.jsp">Register2</a></li>
     </ul>
   </nav>
 </header>

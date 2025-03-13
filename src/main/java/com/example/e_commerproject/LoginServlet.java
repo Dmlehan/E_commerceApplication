@@ -43,7 +43,7 @@ public class LoginServlet extends HttpServlet {
         }
 
         try (Session session = sessionFactory.openSession()) {
-            Query<User> query = session.createQuery("FROM User WHERE email = :email", User.class);
+            Query<User> query = session.createQuery("select  FROM User WHERE email = :email", User.class);
             query.setParameter("email", email);
             User user = query.uniqueResult();
 

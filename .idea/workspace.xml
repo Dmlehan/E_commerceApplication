@@ -3,17 +3,82 @@
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
       <artifact name="E_commerProject:war" />
+      <artifact name="E_commerProject:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a7d9cfa1-1c0a-47b8-b7e4-96d8b5a5e350" name="Changes" comment="Adding new screenshot car sale project">
+    <list default="true" id="a7d9cfa1-1c0a-47b8-b7e4-96d8b5a5e350" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/3/033c1e8b1018bd899ec4808f6292a6019798127d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/b/0b331072c97efa7b6bf95849b570af2461bf1290" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/134b37f2f3d50d5de3f970f029d6d905a704284a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/17325e8785ce08581ced01d1065e701f65e84ea4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1e683de7990c0287a114567a282bdc81e33c68a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/1/31cc15cc4b373bd2b893cf73e90b64b9095a0b29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/3200fcf4ffba49d05a166657dd0ccfb0a33363ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/a/3a48bfec955dbbc389ec14719ca58637c003fa31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/3/73f1c2bda961533c975e489f5f3f5138f40628bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/b/8b747cde98f49d19f8403c127b3bfc41042b16c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/c/8c0402501006bf1ebf88056950cc62662dfdca6f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/6/a6a2dfef978e31adf0f1f140dbc79d4da1afba10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/d/ad90e9ed4c28bc01137e67fe74d0b5d9d943797d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b02e634f57fde5fd79c1a690b9f0f6964d58f78a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b93931aa828f2a878303ace83e137420b34e08f0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c004bc2b4b581b2f46df669a640e40273f4eca87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c07c1f0e5e7cbf91cab1d20bf5b94dbe292ba38c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/2/c271cc162fed87e7665e383c3c81d84a457ddb7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dfb9e48c6e21203c9b764af62788a42547c65e18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/f/ef82dc861348bf270b8886535cd46d4104943c3b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ff5db9e52797e8a955ba81dbe7f51e4ce8747be7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/3/033c1e8b1018bd899ec4808f6292a6019798127d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/b/0b331072c97efa7b6bf95849b570af2461bf1290" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/3/134b37f2f3d50d5de3f970f029d6d905a704284a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/7/17325e8785ce08581ced01d1065e701f65e84ea4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/1/e/1e683de7990c0287a114567a282bdc81e33c68a7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/1/31cc15cc4b373bd2b893cf73e90b64b9095a0b29" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/2/3200fcf4ffba49d05a166657dd0ccfb0a33363ac" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/3/a/3a48bfec955dbbc389ec14719ca58637c003fa31" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/7/3/73f1c2bda961533c975e489f5f3f5138f40628bf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/b/8b747cde98f49d19f8403c127b3bfc41042b16c6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/c/8c0402501006bf1ebf88056950cc62662dfdca6f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/6/a6a2dfef978e31adf0f1f140dbc79d4da1afba10" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/d/ad90e9ed4c28bc01137e67fe74d0b5d9d943797d" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b02e634f57fde5fd79c1a690b9f0f6964d58f78a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/9/b93931aa828f2a878303ace83e137420b34e08f0" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c004bc2b4b581b2f46df669a640e40273f4eca87" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/0/c07c1f0e5e7cbf91cab1d20bf5b94dbe292ba38c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/c/2/c271cc162fed87e7665e383c3c81d84a457ddb7b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/d/f/dfb9e48c6e21203c9b764af62788a42547c65e18" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/f/ef82dc861348bf270b8886535cd46d4104943c3b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/f/ff5db9e52797e8a955ba81dbe7f51e4ce8747be7" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/dash.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Controller/RegistrationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/Listner/Mylistner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/e_commerproject/RegistrationServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Testing/html.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Testing/html1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Testing/nav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/footer.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/head.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/includes/navbar.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/registration.jsp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,9 +89,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="HTML File" />
         <option value="Class" />
         <option value="Jsp File" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,33 +120,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/A1AAA-2025D JDSE/SEM 02/AAD/Java EE/Assignment01/E_commerceApplication/src/main/webapp/assets/images",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Facets",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22229822",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/A1AAA-2025D JDSE/SEM 02/AAD/Java EE/Assignment01/E_commerceApplication/src/main/resources&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22229822&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\resources" />
       <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\webapp\assets\images" />
       <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\webapp" />
       <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\resources\Testing" />
       <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp\WEB-INF" />
-      <recent name="D:\A2025-D\lll\My\E_commerceApplication\src\main\webapp" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication\src\main\webapp" />
@@ -89,6 +159,7 @@
       <recent name="D:\A1AAA-2025D JDSE\SEM 02\AAD\Java EE\Assignment01\E_commerceApplication" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.example.e_commerproject.Listner" />
       <recent name="com.example.e_commerproject.config" />
     </key>
   </component>
@@ -106,24 +177,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="TomeeConfiguration" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file enabled="true" id="Tomcat" />
-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
-      <predefined_log_file id="Tomcat Manager" />
-      <predefined_log_file id="Tomcat Host Manager" />
-      <predefined_log_file id="Tomcat Localhost Access" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tomcat 10" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 10" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/E_commerProject_war/Register2.jsp" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="E_commerProject:war">
           <settings>
             <option name="CONTEXT_PATH" value="/E_commerProject_war" />
+          </settings>
+        </artifact>
+        <artifact name="E_commerProject:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/E_commerProject_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -203,6 +268,7 @@
         <option name="LaunchBrowser.Before.Run" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="E_commerProject:war" />
+          <artifact name="E_commerProject:war exploded" />
         </option>
       </method>
     </configuration>
@@ -230,7 +296,9 @@
       <workItem from="1741403143426" duration="3418000" />
       <workItem from="1741487690319" duration="5024000" />
       <workItem from="1741583139689" duration="3181000" />
-      <workItem from="1741635569265" duration="30844000" />
+      <workItem from="1741635569265" duration="49612000" />
+      <workItem from="1741766549465" duration="9935000" />
+      <workItem from="1741867679136" duration="8112000" />
     </task>
     <task id="LOCAL-00001" summary="Created Loging Part">
       <option name="closed" value="true" />
@@ -384,7 +452,31 @@
       <option name="project" value="LOCAL" />
       <updated>1741681913115</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Create logging and Registration Servlert">
+      <option name="closed" value="true" />
+      <created>1741694750607</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1741694750607</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Adding new screenshot car sale project">
+      <option name="closed" value="true" />
+      <created>1741694755604</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1741694755604</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Adding new screenshot  creating registration form with jsp">
+      <option name="closed" value="true" />
+      <created>1741697646559</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1741697646559</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -401,7 +493,9 @@
     <MESSAGE value="updating" />
     <MESSAGE value="updating readme(adding testing ui )" />
     <MESSAGE value="updating readme adding dashboard" />
+    <MESSAGE value="Create logging and Registration Servlert" />
     <MESSAGE value="Adding new screenshot car sale project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding new screenshot car sale project" />
+    <MESSAGE value="Adding new screenshot  creating registration form with jsp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding new screenshot  creating registration form with jsp" />
   </component>
 </project>
