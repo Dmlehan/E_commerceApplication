@@ -8,17 +8,19 @@
     <link rel="stylesheet" href="assets/css/dashboard.css">
 </head>
 <body>
-<header>
-    <h1>Car Sales</h1>
-    <nav>
-        <ul>
-            <li><a href="dashboard.jsp">Home</a></li>
-            <li><a href="cars.jsp">Cars</a></li>
-            <li><a href="Registration.jsp">Register</a></li>
-        </ul>
-        <button class="btn">Buy Now</button>
-    </nav>
-</header>
+<%--<header>--%>
+<%--    <h1>Car Sales</h1>--%>
+<%--    <nav>--%>
+<%--        <ul>--%>
+<%--            <li><a href="dashboard.jsp">Home</a></li>--%>
+<%--            <li><a href="cars.jsp">Cars</a></li>--%>
+<%--            <li><a href="Registration.jsp">Register</a></li>--%>
+<%--        </ul>--%>
+<%--        <button class="btn">Buy Now</button>--%>
+<%--    </nav>--%>
+<%--</header>--%>
+<%@include file="includes/nav.jsp"%>
+
 
 <section class="hero">
     <h2>Find Your Dream Car</h2>
@@ -41,9 +43,10 @@
 </section>
 
 <section class="car-list" id="carList">
-    <!-- Cars will be dynamically added here -->
-<%--    <image src="src/main/webapp/assets/images/ajoy-joseph-KnbwsTb72U8-unsplash.jpg"></image>--%>
+ Cars will be dynamically added here -->
+       <image  src="src/main/webapp/assets/images/ajoy-joseph-KnbwsTb72U8-unsplash.jpg"></image>
 </section>
+<%@include file="includes/footer.jsp"%>
 
 <script src="assets/js/dashboard.js"></script>
 </body>

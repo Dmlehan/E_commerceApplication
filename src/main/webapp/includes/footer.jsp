@@ -5,12 +5,21 @@
   Time: 11:25 AM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
-<head>
-    <title>Title</title>
-</head>
-<body>
+<style>
+footer {
+background-image: linear-gradient(to left,#000000 0%,#1c1c3ef9 50%,#111111);
+color: white;
+width: 100vw;
+text-align: center;
+position: absolute;
+bottom: 0;
+/*padding: 15px;*/
+/*position: relative; !* Ensures footer is above fixed elements *!*/
+z-index: 10;
+/*margin-top: 50px;*/
 
-</body>
-</html>
+}
+</style>
+<footer>
+    <p>&copy; 2025 Car Sales. All Rights Reserved.</p>
+</footer>

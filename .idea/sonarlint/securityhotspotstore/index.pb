@@ -17,27 +17,3 @@ V
 &src/main/webapp/assets/js/dashboard.js,8\b\8b747cde98f49d19f8403c127b3bfc41042b16c6
 V
 &src/main/webapp/assets/css/General.css,a\6\a6a2dfef978e31adf0f1f140dbc79d4da1afba10
-T
-$src/main/webapp/assets/css/Login.css,e\f\ef82dc861348bf270b8886535cd46d4104943c3b
-\
-,src/main/webapp/AdminSide/userManagement.jsp,c\2\c271cc162fed87e7665e383c3c81d84a457ddb7b
-U
-%src/main/webapp/CustomerSide/Cart.jsp,b\0\b02e634f57fde5fd79c1a690b9f0f6964d58f78a
-V
-&src/main/webapp/CustomerSide/order.jsp,a\d\ad90e9ed4c28bc01137e67fe74d0b5d9d943797d
-X
-(src/main/webapp/CustomerSide/profile.jsp,1\7\17325e8785ce08581ced01d1065e701f65e84ea4
-K
-src/main/webapp/add-car.jsp,1\e\1e683de7990c0287a114567a282bdc81e33c68a7
-U
-%src/main/webapp/AdminSide/editCar.jsp,8\c\8c0402501006bf1ebf88056950cc62662dfdca6f
-X
-(src/main/webapp/assets/css/dashboard.css,f\f\ff5db9e52797e8a955ba81dbe7f51e4ce8747be7
-S
-#src/main/webapp/includes/header.jsp,3\2\3200fcf4ffba49d05a166657dd0ccfb0a33363ac
-P
- src/main/webapp/includes/nav.jsp,0\3\033c1e8b1018bd899ec4808f6292a6019798127d
-T
-$src/main/webapp/AdminSide/addCar.jsp,c\0\c07c1f0e5e7cbf91cab1d20bf5b94dbe292ba38c
-\
-,src/main/webapp/AdminSide/adminDashboard.jsp,7\3\73f1c2bda961533c975e489f5f3f5138f40628bf
