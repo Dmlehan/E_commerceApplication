@@ -11,7 +11,7 @@ background-image: linear-gradient(to left,#000000 0%,#1c1c3ef9 50%,#111111);
 color: white;
 width: 100vw;
 text-align: center;
-position: absolute;
+position: fixed;
 bottom: 0;
 /*padding: 15px;*/
 /*position: relative; !* Ensures footer is above fixed elements *!*/

@@ -1,5 +1,5 @@
 package com.example.e_commerproject.Controller;
-import com.example.e_commerproject.Util.PasswordUtil;
+
 import com.example.e_commerproject.entity.User;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
@@ -7,48 +7,61 @@ import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpSession;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.mindrot.jbcrypt.BCrypt;
 
 import java.io.IOException;
 
-@WebServlet(name = "Register", value = "/Registration")
+@WebServlet(name = "register", value = "/registerServlet")
 public class Register extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        String name = req.getParameter("name");
+        // Retrieve user input from the form
+        String userName = req.getParameter("userName");
         String email = req.getParameter("email");
         String password = req.getParameter("password");
-        String confirmPassword = req.getParameter("confirm_password");
+        String role = req.getParameter("role"); // Customer or Admin
 
-        if (!password.equals(confirmPassword)) {
-            resp.sendRedirect("index.jsp?errorpassword=failed");
-            return;
-        }
+        // Hash the password for security
+        String hashedPassword = BCrypt.hashpw(password, BCrypt.gensalt(12));
 
-        // Hash the password before storing
-        String hashedPassword = PasswordUtil.hashPassword(password);
-
+        // Retrieve Hibernate session factory from servlet context
         ServletContext context = req.getServletContext();
         SessionFactory sessionFactory = (SessionFactory) context.getAttribute("SessionFactory");
 
         if (sessionFactory == null) {
-            throw new ServletException("Hibernate SessionFactory is not initialized.");
+            System.out.println("❌ SessionFactory is null. Check Hibernate initialization.");
+            resp.sendRedirect("Register2.jsp?error=server");
+            return;
         }
 
-        Session session = sessionFactory.openSession();
-        session.beginTransaction();
+        try (Session session = sessionFactory.openSession()) {
+            Transaction transaction = session.beginTransaction();
 
-        User user = new User();
-        user.setUserName(name);
-        user.setEmail(email);
-        user.setPassword(hashedPassword);  // Store hashed password
-        user.setRole("customer");
+            // Create new user entity
+            User newUser = new User();
+            newUser.setUserName(userName);
+            newUser.setEmail(email);
+            newUser.setPassword(hashedPassword); // Store hashed password
+            newUser.setRole(role);
 
-        session.save(user);
-        session.getTransaction().commit();
-        session.close();
+            session.save(newUser);
+            transaction.commit();
 
-        resp.sendRedirect("getAllProductForCustomer.jsp?userId=" + user.getUserId());
+            System.out.println("✅ User Registered Successfully: " + email);
+
+            // Set session attributes for logged-in user
+            HttpSession httpSession = req.getSession();
+            httpSession.setAttribute("user", newUser);
+
+            // Redirect to dashboard.jsp after successful registration
+            resp.sendRedirect("dashboard.jsp");
+        } catch (Exception e) {
+            e.printStackTrace();
+            resp.sendRedirect("Register2.jsp?error=failed");
+        }
     }
 }

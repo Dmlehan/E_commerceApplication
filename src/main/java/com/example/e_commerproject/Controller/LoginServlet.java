@@ -11,50 +11,48 @@ import jakarta.servlet.http.HttpSession;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
+import org.mindrot.jbcrypt.BCrypt;
 
 import java.io.IOException;
 
-//@WebServlet(name="login",value="/loginServelet")
-
+@WebServlet(name = "login", value = "/loginServlet")
 public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        System.out.println("loginServlet");
         String email = req.getParameter("email");
         String password = req.getParameter("password");
-//        ServletContext context=request.getServletContext();
 
-        ServletContext context=req.getServletContext();
+        ServletContext context = req.getServletContext();
         SessionFactory sessionFactory = (SessionFactory) context.getAttribute("SessionFactory");
+
         try (Session session = sessionFactory.openSession()) {
             session.beginTransaction();
 
-            String hql = "FROM User WHERE email = :email AND password = :password";
+            String hql = "FROM User WHERE email = :email";
             Query<User> query = session.createQuery(hql, User.class);
             query.setParameter("email", email);
-            query.setParameter("password", password);
-
             User user = query.uniqueResult();
 
             session.getTransaction().commit();
-
-            if (user != null) {
+            System.out.println("loginservlert");
+            if (user != null && BCrypt.checkpw(password, user.getPassword())) {
                 HttpSession httpSession = req.getSession();
-                String uid = String.valueOf(user.getUserId());
-                httpSession.setAttribute("userId", uid); // Store the userId in session
+                httpSession.setAttribute("userId", user.getUserId());
                 httpSession.setAttribute("userRole", user.getRole());
-                if (user.getRole().equals("Admin")){
-                    resp.sendRedirect("admin_dashboard.jsp?userId=" + user.getUserId());
-                }else {
-                    resp.sendRedirect("getAllProductForCustomer?userId=" + user.getUserId());
+
+                // Redirect based on role
+                if ("Admin".equalsIgnoreCase(user.getRole())) {
+                    resp.sendRedirect("Administrator_Features/AdminDashboard.jsp?userId=" + user.getUserId());
+                } else {
+                    resp.sendRedirect("Customer_Features/CustomerDashBoard.jsp?userId=" + user.getUserId());
                 }
             } else {
-                resp.sendRedirect("getAllProductForCustomer?loginError=failed");
+                resp.sendRedirect("login.jsp?error=invalid");
             }
 
         } catch (Exception e) {
-            resp.sendRedirect("getAllProduct?loginError=failed");
+            resp.sendRedirect("login.jsp?error=serverError");
             e.printStackTrace();
         }
     }

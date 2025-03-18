@@ -60,7 +60,7 @@
 <body>
 <div class="form-container">
     <h2>Login</h2>
-    <form action="login.jsp" method="post">
+    <form action="loginServlet" method="post">
         <input type="email" name="email" placeholder="Email" required>
         <input type="password" name="password" placeholder="Password" required>
         <select name="userType" required>

@@ -1,82 +1,107 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: USER
-  Date: 3/12/2025
-  Time: 12:00 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
     <style>
-    body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background: url( assets/images/background.webp) no-repeat center center/cover;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    .form-container {
-        background: rgba(0, 0, 0, 0.8);
-        padding: 20px;
-        border-radius: 8px;
-        text-align: center;
-        color: white;
-        width: 350px;
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
-    }
-    input, button {
-        width: 100%;
-        padding: 10px;
-        margin: 10px 0;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-    input, button, select {
-        display: block;
-        width: calc(100% - 20px); /* Adjust width to fit properly */
-        padding: 10px;
-        margin: 10px auto; /* Centering the elements */
-        border: 1px solid #ccc;
-        border-radius: 5px;
-    }
-    button {
-        background: blue;
-        color: white;
-        border: none;
-        cursor: pointer;
-    }
-    button:hover {
-        background: darkblue;
-    }
-    .signup-link {
-        display: block;
-        margin-top: 10px;
-        color: white;
-        text-decoration: none;
-    }
-    .signup-link:hover {
-        text-decoration: underline;
-        color: orange;
-    }
-</style>
-</head>
-    <body>
-    <div class="form-container">
-        <h2>Sign Up Customer</h2>
-        <form action="Registration" method="post">
-            <input type="name" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="Email" required>
-            <input type="password" name="password" placeholder="Password" required>
-            <input type="password" name="confirm_password" placeholder="Confirm Password" required>
-            <button type="submit"> <a href="Loging.jsp" class="signup-link">SignUp</a></button>
-        </form>
-        <a href="Testing2.html" class="signup-link">  Login here</a>
-    </div>
-<%--   --%>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
 
-    </body>
+        .form-container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 350px;
+            text-align: center;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: blue;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkblue;
+        }
+
+        .error-message, .success-message {
+            color: white;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .error-message {
+            background-color: red;
+        }
+
+        .success-message {
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Register</h2>
+
+    <!-- Display Success or Error Messages -->
+    <%
+        String errorMessage = request.getParameter("error");
+        String successMessage = request.getParameter("success");
+
+        if (errorMessage != null) {
+            String message = "";
+            if (errorMessage.equals("password_mismatch")) {
+                message = "Passwords do not match!";
+            } else if (errorMessage.equals("registration_failed")) {
+                message = "Registration failed. Please try again.";
+            }
+    %>
+    <div class="error-message"><%= message %></div>
+    <%
+        }
+
+        if (successMessage != null && successMessage.equals("registration_successful")) {
+    %>
+    <div class="success-message">Registration successful! You can now <a href="index.jsp">Login</a>.</div>
+    <%
+        }
+    %>
+
+    <!-- Registration Form -->
+    <form action="registerServlet" method="post">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <input type="password" name="password" placeholder="Password" required>
+        <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+        <button type="submit">Register</button>
+    </form>
+
+    <p>Already have an account? <a href="index.jsp">Login here</a></p>
+</div>
+
+</body>
 </html>
