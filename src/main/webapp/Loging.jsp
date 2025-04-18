@@ -1,10 +1,4 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: USER
-  Date: 3/13/2025
-  Time: 10:40 PM
-  To change this template use File | Settings | File Templates.
---%>
+
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
@@ -52,17 +46,22 @@
             color: blue;
             text-decoration: none;
         }
+
         .signup-link:hover {
             text-decoration: underline;
         }
     </style>
 </head>
+
 <body>
+
+
 <div class="form-container">
     <h2>Login</h2>
     <form action="loginServlet" method="post">
         <input type="email" name="email" placeholder="Email" required>
         <input type="password" name="password" placeholder="Password" required>
+
         <select name="userType" required>
             <option value="">Select Role</option>
             <option value="customer">Customer</option>
@@ -70,7 +69,9 @@
         </select>
         <button type="submit">Login</button>
     </form>
+
     <a href="signup.jsp" class="signup-link">Don't have an account? Sign up here</a>
+
 </div>
 </body>
 </html>

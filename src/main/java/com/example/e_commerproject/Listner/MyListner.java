@@ -9,6 +9,7 @@ import org.hibernate.cfg.Configuration;
 
 @WebListener
 public class MyListner implements ServletContextListener {
+
     private static SessionFactory sessionFactory;
     @Override
     public void contextInitialized(ServletContextEvent sce) {

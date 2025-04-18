@@ -1,5 +1,6 @@
 package com.example.e_commerproject.Controller;
 
+//import com.example.e_commerproject.entity.User;
 import com.example.e_commerproject.entity.User;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
@@ -20,6 +21,7 @@ public class Register extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         // Retrieve user input from the form
+
         String userName = req.getParameter("userName");
         String email = req.getParameter("email");
         String password = req.getParameter("password");
@@ -33,7 +35,7 @@ public class Register extends HttpServlet {
         SessionFactory sessionFactory = (SessionFactory) context.getAttribute("SessionFactory");
 
         if (sessionFactory == null) {
-            System.out.println("❌ SessionFactory is null. Check Hibernate initialization.");
+            System.out.println(" SessionFactory is null. Check Hibernate initialization.");
             resp.sendRedirect("Register2.jsp?error=server");
             return;
         }

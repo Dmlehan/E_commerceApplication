@@ -15,6 +15,7 @@ import javax.persistence.Id;
 
 @Entity
 public class User {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long userId;
@@ -23,5 +24,4 @@ public class User {
     private String password;
     private String role;
 
-    // Getters and setters
 }

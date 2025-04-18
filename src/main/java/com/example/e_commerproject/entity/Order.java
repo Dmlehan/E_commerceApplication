@@ -16,12 +16,15 @@ import java.util.Date;
 
 @Entity
 public class Order {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int orderID;
 
     @ManyToOne
     @JoinColumn(name = "userID")
+
+
     private User user;
 
     private Date orderDate;
@@ -29,4 +32,5 @@ public class Order {
     private String status;
 
     // Getters and setters
+
 }

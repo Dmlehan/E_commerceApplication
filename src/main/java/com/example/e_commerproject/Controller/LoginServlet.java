@@ -1,5 +1,7 @@
 package com.example.e_commerproject.Controller;
 
+
+//import com.example.e_commerproject.entity.User;
 import com.example.e_commerproject.entity.User;
 import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
@@ -16,10 +18,13 @@ import org.mindrot.jbcrypt.BCrypt;
 import java.io.IOException;
 
 @WebServlet(name = "login", value = "/loginServlet")
+
+
 public class LoginServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
         String email = req.getParameter("email");
         String password = req.getParameter("password");
 

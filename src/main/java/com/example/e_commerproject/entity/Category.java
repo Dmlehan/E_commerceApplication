@@ -25,4 +25,5 @@ public class Category {
     private String name;
 
     // Getters and setters
+
 }

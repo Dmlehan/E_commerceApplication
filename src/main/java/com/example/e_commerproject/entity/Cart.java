@@ -1,5 +1,7 @@
 package com.example.e_commerproject.entity;
 import lombok.*;
+import com.example.e_commerproject.entity.Product;
+
 
 import javax.persistence.*;
 
@@ -11,6 +13,7 @@ import javax.persistence.*;
 
 @Entity
 public class Cart {
+
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private int cartID;
@@ -25,6 +28,6 @@ public class Cart {
 
         private int quantity;
 
-        // Getters and setters
+
 }
 

@@ -1,19 +1,13 @@
 
 V
 &src/main/webapp/jq/jquery-3.7.1.min.js,3\7\37c45c2b203dff99d45d1fe4d600b7ef53dfbea3
-m
-=src/main/java/com/example/e_commerproject/entity/Product.java,1\3\134b37f2f3d50d5de3f970f029d6d905a704284a
-k
-;src/main/java/com/example/e_commerproject/entity/Order.java,0\b\0b331072c97efa7b6bf95849b570af2461bf1290
-n
->src/main/java/com/example/e_commerproject/entity/Category.java,3\a\3a48bfec955dbbc389ec14719ca58637c003fa31
 Å
 Q.idea/sonarlint/securityhotspotstore/3/7/37c45c2b203dff99d45d1fe4d600b7ef53dfbea3,3\1\31cc15cc4b373bd2b893cf73e90b64b9095a0b29
 w
 G.idea/sonarlint/issuestore/3/7/37c45c2b203dff99d45d1fe4d600b7ef53dfbea3,c\0\c004bc2b4b581b2f46df669a640e40273f4eca87
-j
-:src/main/java/com/example/e_commerproject/entity/Cart.java,b\9\b93931aa828f2a878303ace83e137420b34e08f0
 V
 &src/main/webapp/assets/js/dashboard.js,8\b\8b747cde98f49d19f8403c127b3bfc41042b16c6
 V
 &src/main/webapp/assets/css/General.css,a\6\a6a2dfef978e31adf0f1f140dbc79d4da1afba10
+K
+src/main/webapp/add-car.jsp,1\e\1e683de7990c0287a114567a282bdc81e33c68a7

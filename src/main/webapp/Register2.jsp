@@ -66,8 +66,6 @@
 
 <div class="form-container">
     <h2>Register</h2>
-
-    <!-- Display Success or Error Messages -->
     <%
         String errorMessage = request.getParameter("error");
         String successMessage = request.getParameter("success");
@@ -86,12 +84,10 @@
 
         if (successMessage != null && successMessage.equals("registration_successful")) {
     %>
-    <div class="success-message">Registration successful! You can now <a href="index.jsp">Login</a>.</div>
+    <div class="success-message">Registration successful! You can now <a href="index.jsp">Login</a> </div>
     <%
         }
     %>
-
-    <!-- Registration Form -->
     <form action="registerServlet" method="post">
         <input type="text" name="name" placeholder="Full Name" required>
         <input type="email" name="email" placeholder="Email" required>
@@ -99,7 +95,6 @@
         <input type="password" name="confirm_password" placeholder="Confirm Password" required>
         <button type="submit">Register</button>
     </form>
-
     <p>Already have an account? <a href="index.jsp">Login here</a></p>
 </div>
 
